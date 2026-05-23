@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+Results/
+Profiles/
+
+config.json
+proxies.txt
+
+firefox-151.0a1.en-US.win64/
+firefox-151.0a1.en-US.win64.zip

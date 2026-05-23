@@ -1,0 +1,36 @@
+{
+    "choose_browser": "ruyipage",
+    "email_suffix": "@outlook.com",
+    "proxy_source": "freefile",
+    "proxy_file": "proxies.txt",
+    "proxy_api_url": "",
+    "proxy_api_timeout": 8,
+    "proxy_test_urls": [
+        "https://outlook.live.com/mail/0/?prompt=create_account",
+        "https://login.live.com"
+    ],
+    "proxy_test_timeout": 8,
+    "bot_protection_wait": 11,
+    "max_captcha_retries": 2,
+    "concurrent_flows": 5,
+    "max_tasks": 20,
+    "show_logs": true,
+    "oauth2": {
+        "enable_oauth2": true,
+        "client_id": "",
+        "redirect_url": "http://localhost:8000",
+        "Scopes": [
+            "offline_access",
+            "https://graph.microsoft.com/Mail.ReadWrite",
+            "https://graph.microsoft.com/Mail.Send",
+            "https://graph.microsoft.com/User.Read"
+        ]
+    },
+    "ruyipage": {
+        "browser_path": "C:/Path/To/firefox.exe",
+        "profile_root": "Profiles",
+        "headless": false,
+        "xpath_picker": false,
+        "action_visual": false
+    }
+}

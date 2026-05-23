@@ -17,7 +17,7 @@
     "show_logs": true,
     "oauth2": {
         "enable_oauth2": true,
-        "client_id": "",
+        "client_id": "1fdedcda-5469-456b-a58b-6d65f557e5e0",
         "redirect_url": "http://localhost:8000",
         "Scopes": [
             "offline_access",
